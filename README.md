@@ -133,9 +133,112 @@ Spinner : 콤보박스
 
 SeekBar, ProgressBar
 
+# AndroidX
+
 # test
 https://developer.android.com/topic/libraries/testing-support-library/?hl=ko#UIAutomator
 
 AndroidJUnitRunner: Android용 JUnit 4 호환 테스트 실행기
 Espresso: 앱 내부에서 기능적 UI 테스트를 실행하기에 적합한 UI 테스트 프레임워크
 UI Automator: 시스템과 설치되어 있는 앱 전반에 걸쳐 앱 간의 기능적 UI 테스트를 실행하기에 적합한 UI 테스트 프레임워크
+
+===
+
+
+An in-depth look at Kotlin’s initializers
+https://medium.com/keepsafe-engineering/an-in-depth-look-at-kotlins-initializers-a0420fcbf546
+
+Child secondary constructor default argument
+Child primary constructor default argument
+Parent primary constructor default argument
+Parent.a
+Parent.init
+Parent.b
+Parent primary constructor
+Child.a
+Child.init 1
+Child.b
+Child.init 2
+Child primary constructor
+Child secondary constructor
+
+
+
+
+`this` `field`
+
+SAM(single Abstract Method)
+`it`
+
+fun Int.isEven() = this % 2 = = 0
+
+companion object { }
+
+
+[안드로이드] Fragment BackStack에 대한 고찰.출처: http://soulduse.tistory.com/23 [프로그래밍좀비]
+
+
+
+# gradle
+https://gradle.org/install/
+
+Scoop install gradle
+Brew install gradle
+
+
+Kotlin - DSL
+```
+gradle init --dsl kotlin
+```
+
+Kotlin Android Extensions, Anko
+
+한국: https://www.inflearn.com/course/%EC%BD%94%ED%8B%80%EB%A6%B0-%EA%B0%95%EC%A2%8C-%EC%83%88%EC%B0%A8%EC%9B%90/
+
+https://guides.gradle.org/migrating-build-logic-from-groovy-to-kotlin/
+
+https://docs.gradle.org/current/userguide/build_init_plugin.html
+
+https://github.com/gradle/kotlin-dsl
+
+
+dependencies
+https://docs.gradle.org/5.0/userguide/kotlin_dsl.html
+https://docs.gradle.org/5.0/userguide/java_library_plugin.html#java_library_plugin
+Api / implementation / testImplementation
+
+
+
+https://blog.gradle.org/gradle-kotlin-dsl-release-candidate
+
+https://expertise.jetruby.com/how-to-write-gradle-scripts-with-kotlin-dsl-better-than-groovy-a63ffc9be2e3
+
+https://medium.com/@napperley/gradle-kotlin-dsl-tutorial-223370af9cd8
+
+Gradle Goes Kotlin by Hans Dockter
+https://www.youtube.com/watch?v=4gmanjWNZ8E
+
+
+
+Android Architecture Blueprints
+https://github.com/googlesamples/android-architecture
+
+https://thdev.net/754?category=435517
+
+MVC
+MVP
+MVVM
+
+——————
+
+https://github.com/skydoves/PreferenceRoom
+
+Type-safe HTTP client for Android and Java by Square, Inc. http://square.github.io/retrofit/
+https://github.com/square/retrofit
+
+MVVM:
+https://www.simform.com/mvc-mvp-mvvm-android-app-development/
+
+
+Theme
+https://github.com/jaredrummler/Cyanea

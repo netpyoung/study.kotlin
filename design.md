@@ -15,6 +15,8 @@ kiket
 android version 4.4 - - api level 19 - Storage Access Framework(SAF)
 
 Lollipop
+android version 5.0 - api level 20
+
 android version 5.1 - api level 22 - sd card access available.
 
 
@@ -86,3 +88,11 @@ MVC
 MVP
 MVVM
 - mvvm에는 data binding이 (거의)필수적으로 필요하게 됨.
+
+# build optimize
+http://gun0912.tistory.com/76
+minSdkVersion을 21로
+
+
+run app
+apply changes - instant run
