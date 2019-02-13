@@ -75,20 +75,6 @@ dpi
 sqlite or realm?
 
 
-# permission
- android 6.0 - targetSdkVersion 23
-https://developer.android.com/about/dashboards/?hl=ko
-
-int checkSelfPermission (Context context, String permission)
-PERMISSION_GRANTED: 퍼미션이 부여된 상태
-PERMISSION_DENIED: 펴미션이 부여되지 않은 상태
-
-https://developer.android.com/training/permissions/requesting
-
-ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},200 );
- void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults)
-
-
 # storage
 File file1 = new File(Environment.getExternalStoragePublicDirectory( Environment.DIRECTORY_PICTURES), "a.jpg");
 
@@ -242,3 +228,19 @@ https://www.simform.com/mvc-mvp-mvvm-android-app-development/
 
 Theme
 https://github.com/jaredrummler/Cyanea
+
+
+# 코틀린 의 apply, with, let, also, run 은 언제 사용하는가?
+* https://medium.com/@limgyumin/코틀린-의-apply-with-let-also-run-은-언제-사용하는가-4a517292df29
+
+https://www.androidhuman.com/lecture/kotlin/2016/07/06/kotlin_let_apply_run_with/
+
+# etc
+public class TextureRenderView extends TextureView implements IRenderView {
+
+
+# extension
+* https://kotlinlang.org/docs/reference/extensions.html
+
+# macro
+not yet on kotlin

@@ -22,5 +22,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" tools:layout_editor_absoluteY="108dp"
             tools:layout_editor_absoluteX="148dp" android:id="@+id/btn_ok"/>
+    <TextureView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp" tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp" android:id="@+id/textview_hello"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

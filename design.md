@@ -11,14 +11,10 @@ Java
 Add unambiguous imports on the fly
 Optimize imports on the fly
 
-kiket
-android version 4.4 - - api level 19 - Storage Access Framework(SAF)
+# Android Google Architecture
 
-Lollipop
-android version 5.0 - api level 20
-
-android version 5.1 - api level 22 - sd card access available.
-
+# Library
+* https://github.com/Kotlin/anko
 
 
 # Androidx
